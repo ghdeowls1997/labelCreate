@@ -1,0 +1,14 @@
+#spring.datasource.url=jdbc:postgresql://localhost:5432/labeldb
+#spring.datasource.username=JinHong
+#spring.datasource.password=ss9476
+#spring.datasource.driver-class-name=org.postgresql.Driver
+#spring.datasource.tomcat.test-while-idle=true
+#spring.datasource.tomcat.validation-query=SELECT 1
+#spring.data.rest.base-path=/api
+server:
+  port: 10002
+
+refine:
+  easypost:
+    url: https://api.easypost.com/v2/addresses
+    access-key: EZTKc42afb21955a4593a502909295cea26fJj5QI49O6NrITQRNrX0z4g

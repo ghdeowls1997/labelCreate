@@ -21,5 +21,4 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
                 .authorizeRequests()
                 .antMatchers("/label").permitAll();
     }
-
 }
